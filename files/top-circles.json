@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "jardiniers-du-nous",
+    "pair:label": "Jardiniers du Nous",
+    "pair:homePage": ["https://jardiniersdunous.org", "https://grandjardin.jardiniersdunous.org"]
+  },
+  {
+    "slug": "jardins-locaux",
+    "pair:label": "Jardins Locaux",
+    "pair:partOf": "jardiniers-du-nous"
+  },
+  {
+    "slug": "jardins-thematiques",
+    "pair:label": "Jardins thématiques",
+    "pair:partOf": "jardiniers-du-nous"
+  }
+]
