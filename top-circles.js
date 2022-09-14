@@ -15,7 +15,7 @@ module.exports = {
     },
     dest: {
       containerUri: urlJoin(CONFIG.HOME_URL, 'circles'),
-      predicatesToKeep: ['pair:documentedBy', 'pair:concernedBy', 'pair:hasPart']
+      predicatesToKeep: ['pair:affiliates', 'pair:documentedBy', 'pair:concernedBy', 'pair:hasPart']
     }
   },
   methods: {
