@@ -4,6 +4,7 @@ const ProfileManagerMixin = {
   },
   methods: {
     async prepare() {
+      this.logger.info('Getting list of all YesWiki profiles...');
       this.wikiProfiles = await this.broker.call('importer.wiki.profils.list');
     },
     getProfileByEmail(email) {

@@ -8,6 +8,7 @@ const SpaceManagerMixin = {
   },
   methods: {
     async prepare() {
+      this.logger.info('Getting list of all HumHub spaces...');
       this.humhubSpaces = await this.broker.call('importer.humhub.space.list');
       for (const key of this.humhubSpaces.keys()) {
         if (this.humhubSpaces[key].id === 18) {
