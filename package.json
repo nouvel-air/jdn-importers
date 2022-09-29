@@ -1,0 +1,18 @@
+{
+  "name": "jdn-importers",
+  "version": "1.0.0",
+  "description": "SemApps importers for Jardiniers du Nous",
+  "license": "Apache-2.0",
+  "repository": "git@github.com:nouvel-air/jdn-importers.git",
+  "private": true,
+  "scripts": {
+    "link-semapps-packages": "yarn link @semapps/activitypub @semapps/auth @semapps/backup @semapps/core @semapps/importer @semapps/inference @semapps/jsonld @semapps/ldp @semapps/middlewares @semapps/mime-types @semapps/mirror @semapps/pod @semapps/signature @semapps/sparql-endpoint @semapps/triplestore @semapps/void @semapps/webacl @semapps/webfinger @semapps/webhooks @semapps/webid",
+    "unlink-semapps-packages": "yarn unlink @semapps/activitypub @semapps/auth @semapps/backup @semapps/core @semapps/importer @semapps/inference @semapps/jsonld @semapps/ldp @semapps/middlewares @semapps/mime-types @semapps/mirror @semapps/pod @semapps/signature @semapps/sparql-endpoint @semapps/triplestore @semapps/void @semapps/webacl @semapps/webfinger @semapps/webhooks @semapps/webid"
+  },
+  "dependencies": {
+    "@semapps/importer": "0.4.0-alpha.44",
+    "emoji-dictionary": "1.0.11",
+    "moleculer-bull": "0.2.8",
+    "speakingurl": "14.0.1"
+  }
+}
