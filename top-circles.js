@@ -19,10 +19,11 @@ module.exports = {
     }
   },
   methods: {
-    async transform({ slug, ...data }) {
+    async transform({ slug, 'pair:partOf': partOf, ...rest }) {
       return ({
         type: 'og:Circle',
-        ...data
+        'pair:partOf': partOf ? urlJoin(CONFIG.HOME_URL, 'circles', partOf) : undefined,
+        ...rest
       });
     }
   }
