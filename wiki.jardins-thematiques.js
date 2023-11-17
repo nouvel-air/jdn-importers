@@ -11,7 +11,7 @@ module.exports = {
   settings: {
     source: {
       yeswiki: {
-        baseUrl: 'https://www.jardiniersdunous.org',
+        baseUrl: 'https://wiki.jardiniersdunous.org',
         oldApi: true,
         formId: 46
       },
