@@ -11,7 +11,7 @@ module.exports = {
   settings: {
     source: {
       humhub: {
-        baseUrl: 'https://grandjardin.jardiniersdunous.org',
+        baseUrl: 'https://jardiniersdunous.org',
         jwtToken: process.env.SEMAPPS_HUMHUB_TOKEN,
         type: 'post',
       }
